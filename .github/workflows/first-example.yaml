@@ -11,10 +11,10 @@ jobs:
         -   name: List and read file
             run: | 
                 echo "My first github action job"
-                ls
+                ls -la
                 cat README.md
-        -   name: Generate ASCII artwork
-            run: cowsay
+        # -   name: Generate ASCII artwork
+        #     run: cowsay
 
         # -   name: List files
         #     run: ls
